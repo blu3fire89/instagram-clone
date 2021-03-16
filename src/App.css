@@ -10,7 +10,19 @@
   object-fit: contain;
   padding: 10px;
   border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+.app-headerImage {
+  object-fit: contain;
+}
+
+.app-posts {
+  padding: 20px;
+}
+
 .logo{
   width: 100px;
 }
