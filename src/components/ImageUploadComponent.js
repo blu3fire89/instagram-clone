@@ -23,7 +23,6 @@ function ImageUpload({username}) {
                 const progress = Math.round(
                     (snapshot.bytesTransferred / snapshot.totalBytes) * 100
                 )
-                console.log("done uploading")
                 setProgress(progress);
             },
             //error function
