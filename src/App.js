@@ -160,7 +160,8 @@ function App() {
           alt="logo"
         />
         {user ? (
-        <Button onClick={() => auth.signOut()}>Logout</Button>
+        <Button onClick={() => auth.signOut().then(()=>refreshPage()
+        )}>Logout</Button>
         ): (
           <div className="app-loginContainer">
             <Button onClick={() => setOpenSignIn(true)}>Sign In</Button>

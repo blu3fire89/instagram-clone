@@ -3,6 +3,7 @@
 }
 .app{
   background-color: #fafafa;
+  height: 100vh;
 }
 .app-header{
   background-color: white;
@@ -20,6 +21,7 @@
 }
 
 .app-posts {
+  background-color: #fafafa;
   padding: 20px;
   display: flex;
   justify-content: center;

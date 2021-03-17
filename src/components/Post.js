@@ -30,7 +30,8 @@ function Post({postId, username, caption, imgUrl, user}) {
             text: comment,
             username: user.displayName,
             timestamp: firebase.firestore.FieldValue.serverTimestamp()
-        });
+        })
+        .then(() => setComment(''))
     }
 
     return (
