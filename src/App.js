@@ -11,10 +11,14 @@ import { Button, Input } from '@material-ui/core';
 
 
 function getModalStyle() {
+  
   const top = 50;
   const left = 50;
 
   return {
+    width: '400px',
+    maxWidth: '70vw',
+    maxHeight: '100%',
     top: `${top}%`,
     left: `${left}%`,
     transform: `translate(-${top}%, -${left}%)`,

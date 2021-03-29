@@ -87,13 +87,3 @@
   width: 100px;
   margin: 0 auto;
 }
-
-.makeStyles-paper-1 {
-  width: 400px;
-}
-
-@media screen and (max-width: 450px) {
-  .makeStyles-paper-1 {
-    width: 70% !important;
-  }
-}
