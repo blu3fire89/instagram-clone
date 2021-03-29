@@ -1,11 +1,11 @@
-*{
+* {
   margin: 0;
 }
-.app{
+.app {
   background-color: #fafafa;
   height: 100vh;
 }
-.app-header{
+.app-header {
   background-color: white;
   object-fit: contain;
   padding: 10px;
@@ -27,28 +27,28 @@
   justify-content: center;
 }
 
-.post{
+.post {
   max-width: 500px;
   background-color: white;
   border: 1px solid lightgray;
   margin-bottom: 45px;
 }
-.post-image{
+.post-image {
   width: 100%;
   object-fit: contain;
   border-top: 1px solid lightgray;
   border-bottom: 1px solid lightgray;
 }
-.post-text{
+.post-text {
   font-weight: normal;
   padding: 20px;
 }
-.post-header{
+.post-header {
   display: flex;
-  align-items: center;  
+  align-items: center;
   padding: 20px;
 }
-.post-avatar{
+.post-avatar {
   margin-right: 10px;
 }
 
@@ -74,16 +74,26 @@
   padding: 20px;
 }
 
-.app-signup, .app-signin{
+.app-signup,
+.app-signin {
   text-align: center;
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-
-.app-signup > img , .app-signin > img{
+.app-signup > img,
+.app-signin > img {
   width: 100px;
   margin: 0 auto;
-  
+}
+
+.makeStyles-paper-1 {
+  width: 400px;
+}
+
+@media screen and (max-width: 450px) {
+  .makeStyles-paper-1 {
+    width: 70% !important;
+  }
 }

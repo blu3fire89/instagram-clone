@@ -22,7 +22,7 @@ function Post({postId, username, caption, imgUrl, user}) {
             unsubscribe();
         }
     }, [postId]);
-    
+    console.log(comments)
 
     const postComment = (event) => {
         event.preventDefault();
