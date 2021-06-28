@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This uses ReactJs for frontend, firebase and IMDB api for backend.
+This uses ReactJs, user auth(email, password), image upload, firebase, and CSS(flexbox).
 
 Need to login first to see contents.
 
